@@ -37,9 +37,29 @@ const Apresentation = () => {
           </section>
 
           <section className="info">
-            <p className="yellowColor">{"{"}</p>
-            <p className="greenColor chave">{'"nome:"'}</p>
-            <span className="orange">isac</span>
+            <p>
+              <span className="yellowColor">{"{"}</span>
+              <br />
+              <span className="greenColor chave">{'"nome"'}</span>
+              <span className="yellowColor">:</span>
+              <span className="orangeColor">{' "isac"'}</span>
+              <br />
+              <span className="greenColor chave">{'"profissão"'}</span>
+              <span className="yellowColor">:</span>
+              <span className="orangeColor">
+                {' "desenvolvedor front-end"'}
+              </span>
+              <br />
+              <span className="greenColor chave">{'"likes"'}</span>
+              <span className="yellowColor">:</span>
+              <span className="pinkColor">{" ["}</span>
+              <span className="orangeColor">{'"futebol"'}</span>
+              <span className="yellowColor">,</span>
+              <span className="orangeColor">{' "games"'}</span>
+              <span className="pinkColor">{"]"}</span>
+              <br />
+              <span className="yellowColor">{"}"}</span>
+            </p>
           </section>
         </div>
 

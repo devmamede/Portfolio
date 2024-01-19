@@ -1,9 +1,28 @@
+body {
+  scroll-snap-align: start;
+}
+
+.apresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
 .section1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 90vh;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .myPhoto {
@@ -21,12 +40,24 @@
   align-items: center;
 }
 
+.info {
+  font-size: 24px;
+}
+
+.info span {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
 .socialMediaIcon {
-  width: 80%;
+  width: 2.1rem;
+  transition: 0.5s;
 }
 
 .socialMediaIcon:hover {
-  color: aqua;
+  filter: greencale(100%);
+  background-color: #5be9b9;
+  border-radius: 10px;
 }
 
 .yellowColor {
@@ -41,8 +72,8 @@
   color: rgb(238, 130, 57);
 }
 
-.grayColor {
-  color: rgb(194, 195, 193);
+.pinkColor {
+  color: rgb(173, 93, 172);
 }
 
 .chave {
