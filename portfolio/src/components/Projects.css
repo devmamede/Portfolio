@@ -1,0 +1,61 @@
+.contentProjects {
+  background-color: #6e07f3;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleProjects {
+  font-family: "Barlow", sans-serif;
+  padding: 3rem 0 1rem 0;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.subtitleProjects {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.carousel {
+  box-sizing: border-box;
+  height: 20rem;
+  width: 80vw;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.projectBanner {
+  height: 15rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.projectBanner:hover {
+  height: 17rem;
+}
+
+.carousel::-webkit-scrollbar {
+  width: 1rem; /* largura da barra de rolagem */
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: #5be9b9; /* cor do polegar da barra de rolagem */
+}
+
+.carousel::-webkit-scrollbar-track {
+  background-color: #fff; /* cor da pista da barra de rolagem */
+}
+
+.carousel::-webkit-scrollbar-button {
+  display: none; /* esconde as setas da barra de rolagem */
+}

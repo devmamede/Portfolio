@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <>
       <div className="greenArea"></div>
-      <main>
+      <main className="content">
         <div className="skillsBox">
           <section className="head">
             <img className="icon" src="../public/terminalIcon.png" alt="" />
