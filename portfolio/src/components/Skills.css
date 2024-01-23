@@ -1,0 +1,62 @@
+.greenArea {
+  background-color: #5be9b9;
+  height: 300px;
+}
+
+main {
+  margin-bottom: 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.skillsBox {
+  width: 80vw;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12rem;
+  overflow: hidden;
+  padding: 4rem;
+}
+
+.head {
+  text-align: center;
+}
+
+.title {
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 3rem;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.skillsContainerLine1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.skillsContainerLine1 h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+
+.skillsContainerLine2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.skillsContainerLine2 h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+
+.icon {
+  margin: 1rem 3.5rem;
+  width: 5rem;
+}

@@ -1,12 +1,12 @@
-import Header from "./components/header.jsx";
 import Apresentation from "./components/Apresentation.jsx";
 import "./App.css";
+import Skills from "./components/Skills.jsx";
 
 function App() {
   return (
     <div>
-      <Header />
       <Apresentation />
+      <Skills />
     </div>
   );
 }

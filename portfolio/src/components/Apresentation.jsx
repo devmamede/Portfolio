@@ -1,8 +1,10 @@
+import Header from "./Header.jsx";
 import "./Apresentation.css";
 
 const Apresentation = () => {
   return (
     <>
+      <Header />
       <div className="section1">
         <div className="apresentation">
           <section className="social">
