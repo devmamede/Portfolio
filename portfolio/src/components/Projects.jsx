@@ -12,92 +12,144 @@ const Projects = () => {
         </section>
 
         <section className="carousel">
-          <a
-            href="https://devmamede.github.io/Lista-de-Compras/"
-            target="blank"
-          >
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/carrinhoDeCompras.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Full-Home-Page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/fullHomePage.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Churrascometro/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/churrascometro.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Lista-de-Compras/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/carrinhoDeCompras.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Countdown/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/countdown.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Countdown/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/countdown.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Full-Home-Page/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/fullHomePage.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Churrascometro/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/churrascometro.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Jogo-da-Velha/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/jogoDaVelha.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Jogo-da-Velha/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/jogoDaVelha.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Music-Player/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/musicPlayer.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Music-Player/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/musicPlayer.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Quizz/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/quiz.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Starbucks-Landing-Page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/starbucks.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a href="https://devmamede.github.io/Social-Linking/" target="blank">
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/socialLinking.png"
-              alt=""
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Quizz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/quiz.png"
+                alt=""
+              />
+            </a>
+          </div>
 
-          <a
-            href="https://devmamede.github.io/Starbucks-Landing-Page/"
-            target="blank"
-          >
-            <img
-              className="projectBanner"
-              src="../public/projectsBanners/starbucks.png"
-              alt="Starbucks Langing Page"
-            />
-          </a>
+          <div className="slide">
+            <a
+              href="https://devmamede.github.io/Social-Linking/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projectBanner"
+                src="../public/projectsBanners/socialLinking.png"
+                alt=""
+              />
+            </a>
+          </div>
         </section>
       </div>
     </main>
   );
 };
 
-document.querySelector(".carousel").addEventListener("wheel", function (event) {
-  event.preventDefault();
-  this.scrollLeft += event.deltaX;
-});
+setTimeout(() => {
+  document
+    .querySelector(".carousel")
+    .addEventListener("wheel", function (event) {
+      event.preventDefault();
+      this.scrollLeft += event.deltaY;
+    });
+}, 1000);
 
 export default Projects;

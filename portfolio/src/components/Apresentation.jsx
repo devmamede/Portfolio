@@ -69,7 +69,7 @@ const Apresentation = () => {
           <div className="text">
             <h2>Que bom ter você aqui. Prazer te conhecer!</h2>
             <p>
-              Sou desenvolvedor Front-end com experiência em React, JavaScript,
+              Sou desenvolvedor Front-end com conhecimento em React, JavaScript,
               Bootstrap, Node e consumo de APIs. Apaixonado por tecnologia e
               pelo desenvolvimento de ferramentas úteis e sites que agregam
               valor, busco cada dia mais aprender e consolidar os meus
