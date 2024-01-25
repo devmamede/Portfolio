@@ -35,27 +35,22 @@
 }
 
 .projectBanner {
-  height: 15rem;
+  height: 14rem;
   border-radius: 10px;
   transition: 0.5s;
+  box-shadow: 0 0 7px 1px black;
 }
 
 .projectBanner:hover {
-  height: 17rem;
+  height: 16rem;
 }
 
 .carousel::-webkit-scrollbar {
-  width: 1rem; /* largura da barra de rolagem */
+  background-color: #6e07f3;
+  height: 10px;
 }
 
 .carousel::-webkit-scrollbar-thumb {
-  background-color: #5be9b9; /* cor do polegar da barra de rolagem */
-}
-
-.carousel::-webkit-scrollbar-track {
-  background-color: #fff; /* cor da pista da barra de rolagem */
-}
-
-.carousel::-webkit-scrollbar-button {
-  display: none; /* esconde as setas da barra de rolagem */
+  background-color: black;
+  border-radius: 20px;
 }
