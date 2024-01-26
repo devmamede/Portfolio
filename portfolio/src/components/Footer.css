@@ -1,0 +1,29 @@
+footer {
+  background-color: #5be9b9;
+  text-align: center;
+  padding: 2rem;
+}
+
+.phrase {
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.authorship {
+  font-family: "Quicksand", sans-serif;
+}
+
+.profileLink {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: #6e07f3;
+}
+
+.copyrightIcon {
+  height: 18px;
+  margin-left: -4px;
+  vertical-align: middle;
+}
+
+/* font-family: "Barlow", sans-serif;
+font-family: "Quicksand", sans-serif; */
