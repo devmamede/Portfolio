@@ -140,6 +140,14 @@ const Projects = () => {
               </a>
             </div>
           </section>
+
+          <button
+            className="curriculoBtn"
+            target="blank"
+            href="./public/pdf/curriculo.pdf"
+          >
+            <a>Visualizar currículo</a>
+          </button>
         </div>
       </main>
 

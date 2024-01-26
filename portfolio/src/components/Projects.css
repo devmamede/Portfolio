@@ -9,7 +9,7 @@
 
 .titleProjects {
   font-family: "Barlow", sans-serif;
-  padding: 3rem 0 1rem 0;
+  padding: 4rem 0 1rem 0;
   font-size: 35px;
   font-weight: 900;
 }
@@ -27,7 +27,7 @@
   background-color: #fff;
   border-radius: 20px;
   padding: 2rem;
-  margin: 4rem 5rem 5rem 5rem;
+  margin: 4rem 5rem 2rem 5rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -76,10 +76,31 @@
   font-size: 2rem;
   display: none;
   pointer-events: none;
-  /* background-color: #000;
-  opacity: 0.8;
+}
+
+.curriculoBtn {
+  background-color: #fff;
+  border: none;
+  font-size: 24px;
   padding: 10px;
-  border-radius: 20px; */
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+
+.curriculoBtn:hover {
+  cursor: pointer;
+  background-color: #5be9b9;
+  color: #000;
+}
+
+.curriculoBtn a {
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.curriculoBtn a:hover {
+  color: #000;
 }
 
 .slide:hover::after {
