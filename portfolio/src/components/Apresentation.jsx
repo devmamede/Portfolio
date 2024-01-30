@@ -14,21 +14,21 @@ const Apresentation = () => {
               alt="Foto do Isac"
             />
             <div className="socialMedia">
-              <a href="https://www.linkedin.com/in/isac-mamede/">
+              <a target="blank" href="https://www.linkedin.com/in/isac-mamede/">
                 <img
                   className="socialMediaIcon"
                   src="../public/linkedinIcon.png"
                   alt="LinkedIn Icon"
                 />
               </a>
-              <a href="https://www.instagram.com/dev.mamede/">
+              <a target="blank" href="https://www.instagram.com/dev.mamede/">
                 <img
                   className="socialMediaIcon"
                   src="../public/instagramIcon.png"
                   alt="LinkedIn Icon"
                 />
               </a>
-              <a href="https://github.com/devmamede/">
+              <a target="blank" href="https://github.com/devmamede/">
                 <img
                   className="socialMediaIcon"
                   src="../public/githubIcon.png"

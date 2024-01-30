@@ -20,6 +20,13 @@
   font-size: 20px;
 }
 
+.carouselContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel {
   box-sizing: border-box;
   height: 20rem;
@@ -27,13 +34,24 @@
   background-color: #fff;
   border-radius: 20px;
   padding: 2rem;
-  margin: 4rem 5rem 2rem 5rem;
+  margin: 4rem 2rem 2rem 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
   overflow-x: scroll;
   overflow-y: hidden;
   user-select: none;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.arrowIcon {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.prev,
+.next {
 }
 
 .slide {
