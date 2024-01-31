@@ -71,10 +71,10 @@ const Apresentation = () => {
             <p>
               Sou desenvolvedor Front-end com conhecimento em React, JavaScript,
               Bootstrap, Node e consumo de APIs. Apaixonado por tecnologia e
-              pelo desenvolvimento de ferramentas úteis e sites que agregam
-              valor, busco cada dia mais aprender e consolidar os meus
-              conhecimentos. Tenho experiência no desenvolvimento de projetos
-              pessoais, freelancers e atualmente estou me formando em Análise e
+              pelo desenvolvimento de ferramentas e sites que agregam valor,
+              busco cada dia mais aprender e consolidar os meus conhecimentos.
+              Tenho experiência no desenvolvimento de projetos pessoais,
+              freelancers e atualmente estou me formando em Análise e
               Desenvolvimento de Sistemas.
             </p>
           </div>

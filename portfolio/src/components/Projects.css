@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 
 .titleProjects {
@@ -48,10 +49,6 @@
 .arrowIcon {
   height: 5rem;
   cursor: pointer;
-}
-
-.prev,
-.next {
 }
 
 .slide {

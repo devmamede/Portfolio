@@ -8,6 +8,7 @@ const Footer = () => {
         Desenvolvido por mim,{" "}
         <a
           className="profileLink"
+          target="blank"
           href="https://www.linkedin.com/in/isac-mamede/"
         >
           @dev.mamede

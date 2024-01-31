@@ -1,6 +1,7 @@
 .greenArea {
   background-color: #5be9b9;
-  height: 300px;
+  height: 50vh;
+  margin-top: -3.8rem;
 }
 
 .content {
@@ -18,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -12rem;
+  margin-top: -25rem;
   overflow: hidden;
   padding: 4rem;
 }
