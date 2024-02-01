@@ -1,15 +1,12 @@
-body {
-  scroll-snap-align: start;
-}
-
 .apresentation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 5rem;
 }
 
-.section1 {
+.apresentationContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,6 +103,75 @@ body {
 
 .aboutMe p {
   font-family: "Quicksand", sans-serif;
+  text-indent: 1.5rem;
   font-size: 20px;
   font-weight: 500;
+}
+
+@media (max-width: 1180px) {
+  .apresentation {
+    margin-top: 4rem;
+    gap: 2rem;
+  }
+
+  .apresentationContainer {
+    height: auto;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .myPhoto {
+    width: 20vw;
+    border-radius: 80px;
+  }
+
+  .socialMedia {
+    padding: 10px;
+    width: 20vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .socialMediaIcon {
+    width: 1.6rem;
+    transition: 0.5s;
+  }
+
+  .info {
+    font-size: 1.3rem;
+  }
+
+  .aboutMe {
+    width: 100vw;
+    margin-top: 5rem;
+    padding: 2rem;
+    height: auto;
+  }
+
+  .text {
+    width: 85vw;
+  }
+
+  .aboutMe h2 {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .aboutMe p {
+    text-align: justify;
+    text-indent: 2rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
 }

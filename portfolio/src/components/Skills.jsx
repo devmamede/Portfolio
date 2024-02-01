@@ -11,7 +11,7 @@ const Skills = () => {
             <h2 className="title">Habilidades</h2>
           </section>
 
-          <section className="skillsContainerLine1">
+          <section className="skillsContainer">
             <section className="html">
               <h3>HTML5</h3>
               <img
@@ -56,9 +56,7 @@ const Skills = () => {
                 alt="React Native icon"
               />
             </section>
-          </section>
 
-          <section className="skillsContainerLine2">
             <section className="node">
               <h3>Node.js</h3>
               <img

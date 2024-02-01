@@ -14,7 +14,7 @@
   width: 80vw;
   background-color: #fff;
   border-radius: 20px;
-  box-shadow: 5px 5px 15px grey;
+  box-shadow: 0px 0px 15px grey;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,24 +35,14 @@
   font-weight: 900;
 }
 
-.skillsContainerLine1 {
+.skillsContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
 
-.skillsContainerLine1 h3 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 24px;
-}
-
-.skillsContainerLine2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.skillsContainerLine2 h3 {
+.skillsContainer h3 {
   font-family: "Quicksand", sans-serif;
   font-size: 24px;
 }
@@ -60,4 +50,64 @@
 .icon {
   margin: 1rem 3.5rem;
   width: 5rem;
+}
+
+@media (max-width: 1180px) {
+  .greenArea {
+    background-color: #fff;
+    height: auto;
+    width: 100vw;
+    margin-top: 6rem;
+    margin-bottom: 0;
+  }
+
+  .content {
+    margin-bottom: 0;
+  }
+
+  .skillsBox {
+    margin: 5rem 0;
+    overflow: hidden;
+    padding: 0rem;
+  }
+
+  .head {
+    text-align: center;
+  }
+
+  .title {
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 3rem;
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skillsContainerLine1 h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+  }
+
+  .skillsContainerLine2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .skillsContainerLine2 h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+  }
+
+  .icon {
+    margin: 1rem 3.5rem;
+    width: 5rem;
+  }
 }

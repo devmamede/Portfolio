@@ -18,3 +18,19 @@
   display: grid;
   align-items: center;
 }
+
+@media (max-width: 1180px) {
+  .pagesContainer {
+    height: 100vh;
+    width: auto;
+    scroll-snap-type: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .page {
+    height: auto;
+    width: auto;
+    display: inline-block;
+  }
+}

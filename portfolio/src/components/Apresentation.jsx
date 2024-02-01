@@ -5,7 +5,7 @@ const Apresentation = () => {
   return (
     <>
       <Header />
-      <div className="section1">
+      <div className="apresentationContainer">
         <div className="apresentation">
           <section className="social">
             <img

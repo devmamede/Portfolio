@@ -132,3 +132,75 @@
   background-color: rgb(0, 0, 0);
   border-radius: 20px;
 }
+
+@media (max-width: 1180px) {
+  .contentProjects {
+    height: auto;
+    width: 100vw;
+    background-color: #6e07f3;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titleProjects {
+    font-family: "Barlow", sans-serif;
+    padding: 4rem 0 1rem 0;
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+
+  .subtitleProjects {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .carouselContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel {
+    box-sizing: border-box;
+    height: 40rem;
+    width: 80vw;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 4rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    user-select: none;
+  }
+
+  .arrowIcon {
+    display: none;
+  }
+
+  .slide {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 14rem;
+    transition: 0.5s;
+  }
+
+  .projectBanner {
+    height: 18rem;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0 0 7px 1px black;
+  }
+
+  .curriculoBtn {
+    font-size: 2rem;
+  }
+}
