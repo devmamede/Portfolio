@@ -10,28 +10,28 @@ const Apresentation = () => {
           <section className="social">
             <img
               className="myPhoto"
-              src="../public/myPhoto.jpg"
+              src="./portfolio/public/myPhoto.jpg"
               alt="Foto do Isac"
             />
             <div className="socialMedia">
               <a target="blank" href="https://www.linkedin.com/in/isac-mamede/">
                 <img
                   className="socialMediaIcon"
-                  src="../public/linkedinIcon.png"
+                  src="./portfolio/public/linkedinIcon.png"
                   alt="LinkedIn Icon"
                 />
               </a>
               <a target="blank" href="https://www.instagram.com/dev.mamede/">
                 <img
                   className="socialMediaIcon"
-                  src="../public/instagramIcon.png"
+                  src="./portfolio/public/instagramIcon.png"
                   alt="LinkedIn Icon"
                 />
               </a>
               <a target="blank" href="https://github.com/devmamede/">
                 <img
                   className="socialMediaIcon"
-                  src="../public/githubIcon.png"
+                  src="./portfolio/public/githubIcon.png"
                   alt="LinkedIn Icon"
                 />
               </a>

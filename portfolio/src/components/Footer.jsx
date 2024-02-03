@@ -20,21 +20,21 @@ const Footer = () => {
         <a href="https://www.instagram.com/dev.mamede/">
           <img
             className="socialMediaIcon"
-            src="../public/instagramBlackIcon.png"
+            src="./portfolio/public/instagramBlackIcon.png"
             alt="LinkedIn Icon"
           />
         </a>
         <a href="https://www.linkedin.com/in/isac-mamede/">
           <img
             className="socialMediaIcon"
-            src="../public/linkedinBlackIcon.png"
+            src="./portfolio/public/linkedinBlackIcon.png"
             alt="LinkedIn Icon"
           />
         </a>
         <a href="https://github.com/devmamede/">
           <img
             className="socialMediaIcon"
-            src="../public/githubBlackIcon.png"
+            src="./portfolio/public/githubBlackIcon.png"
             alt="LinkedIn Icon"
           />
         </a>

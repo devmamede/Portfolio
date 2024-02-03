@@ -16,7 +16,7 @@ const Projects = () => {
           <section className="carouselContent">
             <img
               className="arrowIcon prev"
-              src="./public/leftArrow.png"
+              src="./portfolio/public/leftArrow.png"
               alt=""
             />
 
@@ -29,7 +29,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/fullHomePage.png"
+                    src="./portfolio/public/projectsBanners/fullHomePage.png"
                     alt=""
                   />
                 </a>
@@ -43,7 +43,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/carrinhoDeCompras.png"
+                    src="./portfolio/public/projectsBanners/carrinhoDeCompras.png"
                     alt=""
                   />
                 </a>
@@ -57,7 +57,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/countdown.png"
+                    src="./portfolio/public/projectsBanners/countdown.png"
                     alt=""
                   />
                 </a>
@@ -71,7 +71,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/churrascometro.png"
+                    src="./portfolio/public/projectsBanners/churrascometro.png"
                     alt=""
                   />
                 </a>
@@ -85,7 +85,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/jogoDaVelha.png"
+                    src="./portfolio/public/projectsBanners/jogoDaVelha.png"
                     alt=""
                   />
                 </a>
@@ -99,7 +99,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/musicPlayer.png"
+                    src="./portfolio/public/projectsBanners/musicPlayer.png"
                     alt=""
                   />
                 </a>
@@ -113,7 +113,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/starbucks.png"
+                    src="./portfolio/public/projectsBanners/starbucks.png"
                     alt=""
                   />
                 </a>
@@ -127,7 +127,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/quiz.png"
+                    src="./portfolio/public/projectsBanners/quiz.png"
                     alt=""
                   />
                 </a>
@@ -141,7 +141,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="../public/projectsBanners/socialLinking.png"
+                    src="./portfolio/public/projectsBanners/socialLinking.png"
                     alt=""
                   />
                 </a>
@@ -150,13 +150,13 @@ const Projects = () => {
 
             <img
               className="arrowIcon next"
-              src="./public/rightArrow.png"
+              src="./portfolio/public/rightArrow.png"
               alt=""
             />
           </section>
 
           <button className="curriculoBtn">
-            <a target="blank" href="./public/pdf/curriculo.pdf">
+            <a target="blank" href="./portfolio/public/pdf/curriculo.pdf">
               Visualizar currículo
             </a>
           </button>

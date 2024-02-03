@@ -16,7 +16,7 @@ const Skills = () => {
               <h3>HTML5</h3>
               <img
                 className="icon"
-                src="../public/htmlIcon.png"
+                src="./portfolio/public/htmlIcon.png"
                 alt="HTML5 icon"
               />
             </section>
@@ -25,7 +25,7 @@ const Skills = () => {
               <h3>CSS3</h3>
               <img
                 className="icon"
-                src="../public/cssIcon.png"
+                src="./portfolio/public/cssIcon.png"
                 alt="CSS3 icon"
               />
             </section>
@@ -34,7 +34,7 @@ const Skills = () => {
               <h3>JavaScript</h3>
               <img
                 className="icon"
-                src="../public/javascriptIcon.png"
+                src="./portfolio/public/javascriptIcon.png"
                 alt="JavaScript icon"
               />
             </section>
@@ -43,7 +43,7 @@ const Skills = () => {
               <h3>React</h3>
               <img
                 className="icon"
-                src="../public/reactIcon.png"
+                src="./portfolio/public/reactIcon.png"
                 alt="React icon"
               />
             </section>
@@ -52,7 +52,7 @@ const Skills = () => {
               <h3>React Native</h3>
               <img
                 className="icon"
-                src="../public/reactNativeIcon.png"
+                src="./portfolio/public/reactNativeIcon.png"
                 alt="React Native icon"
               />
             </section>
@@ -61,7 +61,7 @@ const Skills = () => {
               <h3>Node.js</h3>
               <img
                 className="icon"
-                src="../public/nodeIcon.png"
+                src="./portfolio/public/nodeIcon.png"
                 alt="Node icon"
               />
             </section>
@@ -70,7 +70,7 @@ const Skills = () => {
               <h3>Bootstrap</h3>
               <img
                 className="icon"
-                src="../public/bootstrapIcon.png"
+                src="./portfolio/public/bootstrapIcon.png"
                 alt="Bootstrap icon"
               />
             </section>
@@ -79,7 +79,7 @@ const Skills = () => {
               <h3>Git e GitHub</h3>
               <img
                 className="icon"
-                src="../public/gitIcon.png"
+                src="./portfolio/public/gitIcon.png"
                 alt="Git icon"
               />
             </section>
@@ -88,7 +88,7 @@ const Skills = () => {
               <h3>APIs</h3>
               <img
                 className="icon"
-                src="../public/apiIcon.png"
+                src="./portfolio/public/apiIcon.png"
                 alt="APIs icon"
               />
             </section>
@@ -97,7 +97,7 @@ const Skills = () => {
               <h3>MongoDB</h3>
               <img
                 className="icon"
-                src="../public/mongoIcon.png"
+                src="./portfolio/public/mongoIcon.png"
                 alt="MongoDB icon"
               />
             </section>
