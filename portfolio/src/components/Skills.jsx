@@ -7,7 +7,11 @@ const Skills = () => {
       <main className="content">
         <div className="skillsBox">
           <section className="head">
-            <img className="icon" src="../../public/terminalIcon.png" alt="" />
+            <img
+              className="icon"
+              src="../../portfolio/public/terminalIcon.png"
+              alt=""
+            />
             <h2 className="title">Habilidades</h2>
           </section>
 
