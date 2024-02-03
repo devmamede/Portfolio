@@ -111,3 +111,17 @@
     width: 5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .skillsBox {
+    width: 90vw;
+  }
+
+  .skillsContainer img {
+    width: 40px;
+  }
+
+  .skillsContainer h3 {
+    font-size: 1.2rem;
+  }
+}

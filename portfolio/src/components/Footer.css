@@ -36,5 +36,29 @@ footer {
   margin-top: 0.8rem;
 }
 
-/* font-family: "Barlow", sans-serif;
-font-family: "Quicksand", sans-serif; */
+@media (max-width: 768px) {
+  footer {
+    height: auto;
+    padding: 1.5rem 0;
+    background-color: #5be9b9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .phrase {
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .authorship {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+  }
+
+  .footerSocialMedia {
+    display: none;
+  }
+}

@@ -204,3 +204,86 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .contentProjects {
+    height: auto;
+    width: 100vw;
+  }
+
+  .titleProjects {
+    font-size: 2.5rem;
+  }
+
+  .subtitleProjects {
+    font-size: 1.5rem;
+  }
+
+  .carouselContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel {
+    box-sizing: border-box;
+    height: 40rem;
+    width: 80vw;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 4rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    user-select: none;
+  }
+
+  .arrowIcon {
+    display: none;
+  }
+
+  .slide {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 8rem;
+    transition: 0.5s;
+  }
+
+  .slide:hover {
+    height: 10rem;
+  }
+
+  .projectBanner {
+    height: 10rem;
+  }
+
+  .projectBanner:hover {
+    height: 10rem;
+    opacity: 1;
+    display: block;
+    border: 1px solid black;
+  }
+
+  .slide::after {
+    content: none;
+    display: none;
+    pointer-events: none;
+  }
+
+  .curriculoBtn {
+    font-size: 1.5rem;
+  }
+
+  .curriculoBtn:hover {
+    background-color: #fff;
+  }
+
+  .curriculoBtn a:hover {
+    color: #6e07f3;
+  }
+}
