@@ -9,6 +9,7 @@ import Quiz from "../img/projectsBanners/quiz.png";
 import RightArrow from "../img/projectsBanners/rightArrow.png";
 import SocialLinking from "../img/projectsBanners/socialLinking.png";
 import Starbucks from "../img/projectsBanners/starbucks.png";
+import Curriculo from "../components/pdf/curriculo.pdf";
 
 import Footer from "./Footer";
 import "./Projects.css";
@@ -128,7 +129,7 @@ const Projects = () => {
           </section>
 
           <button className="curriculoBtn">
-            <a target="blank" href="./portfolio/public/pdf/curriculo.pdf">
+            <a target="blank" href={Curriculo}>
               Visualizar currículo
             </a>
           </button>
