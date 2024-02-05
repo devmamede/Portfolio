@@ -1,3 +1,15 @@
+import LeftArrow from "../img/projectsBanners/leftArrow.png";
+import FullHomePage from "../img/projectsBanners/fullHomePage.png";
+import CarrinhoDeCompras from "../img/projectsBanners/carrinhoDeCompras.png";
+import Churrascometro from "../img/projectsBanners/churrascometro.png";
+import Countdown from "../img/projectsBanners/countdown.png";
+import JogoDaVelha from "../img/projectsBanners/jogoDaVelha.png";
+import MusicPlayer from "../img/projectsBanners/musicPlayer.png";
+import Quiz from "../img/projectsBanners/quiz.png";
+import RightArrow from "../img/projectsBanners/rightArrow.png";
+import SocialLinking from "../img/projectsBanners/socialLinking.png";
+import Starbucks from "../img/projectsBanners/starbucks.png";
+
 import Footer from "./Footer";
 import "./Projects.css";
 
@@ -14,11 +26,7 @@ const Projects = () => {
           </section>
 
           <section className="carouselContent">
-            <img
-              className="arrowIcon prev"
-              src="./portfolio/public/leftArrow.png"
-              alt=""
-            />
+            <img className="arrowIcon prev" src={LeftArrow} alt="" />
 
             <section className="carousel">
               <div className="slide">
@@ -27,11 +35,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/fullHomePage.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={FullHomePage} alt="" />
                 </a>
               </div>
 
@@ -43,7 +47,7 @@ const Projects = () => {
                 >
                   <img
                     className="projectBanner"
-                    src="./portfolio/public/projectsBanners/carrinhoDeCompras.png"
+                    src={CarrinhoDeCompras}
                     alt=""
                   />
                 </a>
@@ -55,11 +59,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/countdown.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={Countdown} alt="" />
                 </a>
               </div>
 
@@ -69,11 +69,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/churrascometro.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={Churrascometro} alt="" />
                 </a>
               </div>
 
@@ -83,11 +79,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/jogoDaVelha.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={JogoDaVelha} alt="" />
                 </a>
               </div>
 
@@ -97,11 +89,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/musicPlayer.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={MusicPlayer} alt="" />
                 </a>
               </div>
 
@@ -111,11 +99,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/starbucks.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={Starbucks} alt="" />
                 </a>
               </div>
 
@@ -125,11 +109,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/quiz.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={Quiz} alt="" />
                 </a>
               </div>
 
@@ -139,20 +119,12 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <img
-                    className="projectBanner"
-                    src="./portfolio/public/projectsBanners/socialLinking.png"
-                    alt=""
-                  />
+                  <img className="projectBanner" src={SocialLinking} alt="" />
                 </a>
               </div>
             </section>
 
-            <img
-              className="arrowIcon next"
-              src="./portfolio/public/rightArrow.png"
-              alt=""
-            />
+            <img className="arrowIcon next" src={RightArrow} alt="" />
           </section>
 
           <button className="curriculoBtn">

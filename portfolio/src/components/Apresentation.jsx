@@ -1,3 +1,8 @@
+import MyPhoto from "../img/myPhoto.jpg";
+import LinkedinIcon from "../img/linkedinIcon.png";
+import InstagramIcon from "../img/instagramIcon.png";
+import GithubIcon from "../img/githubIcon.png";
+
 import Header from "./Header.jsx";
 import "./Apresentation.css";
 
@@ -8,30 +13,26 @@ const Apresentation = () => {
       <div className="apresentationContainer">
         <div className="apresentation">
           <section className="social">
-            <img
-              className="myPhoto"
-              src="./portfolio/public/myPhoto.jpg"
-              alt="Foto do Isac"
-            />
+            <img className="myPhoto" src={MyPhoto} alt="Foto do Isac" />
             <div className="socialMedia">
               <a target="blank" href="https://www.linkedin.com/in/isac-mamede/">
                 <img
                   className="socialMediaIcon"
-                  src="./portfolio/public/linkedinIcon.png"
+                  src={LinkedinIcon}
                   alt="LinkedIn Icon"
                 />
               </a>
               <a target="blank" href="https://www.instagram.com/dev.mamede/">
                 <img
                   className="socialMediaIcon"
-                  src="./portfolio/public/instagramIcon.png"
+                  src={InstagramIcon}
                   alt="LinkedIn Icon"
                 />
               </a>
               <a target="blank" href="https://github.com/devmamede/">
                 <img
                   className="socialMediaIcon"
-                  src="./portfolio/public/githubIcon.png"
+                  src={GithubIcon}
                   alt="LinkedIn Icon"
                 />
               </a>

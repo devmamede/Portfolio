@@ -1,3 +1,7 @@
+import LinkedinIcon from "../img/linkedinIcon.png";
+import InstagramIcon from "../img/instagramIcon.png";
+import GithubIcon from "../img/githubIcon.png";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -20,23 +24,19 @@ const Footer = () => {
         <a href="https://www.instagram.com/dev.mamede/">
           <img
             className="socialMediaIcon"
-            src="./portfolio/public/instagramBlackIcon.png"
-            alt="LinkedIn Icon"
+            src={InstagramIcon}
+            alt="Instagram Icon"
           />
         </a>
         <a href="https://www.linkedin.com/in/isac-mamede/">
           <img
             className="socialMediaIcon"
-            src="./portfolio/public/linkedinBlackIcon.png"
+            src={LinkedinIcon}
             alt="LinkedIn Icon"
           />
         </a>
         <a href="https://github.com/devmamede/">
-          <img
-            className="socialMediaIcon"
-            src="./portfolio/public/githubBlackIcon.png"
-            alt="LinkedIn Icon"
-          />
+          <img className="socialMediaIcon" src={GithubIcon} alt="GitHub Icon" />
         </a>
       </div>
     </footer>
