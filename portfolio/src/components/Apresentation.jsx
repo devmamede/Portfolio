@@ -9,7 +9,7 @@ import "./Apresentation.css";
 const Apresentation = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="apresentationContainer">
         <div className="apresentation">
           <section className="social">

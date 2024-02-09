@@ -1,21 +1,25 @@
 import Apresentation from "./Apresentation.jsx";
 import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
+import Header from "./Header.jsx";
 import "./Pages.css";
 
 function Pages() {
   return (
-    <div className="pagesContainer">
-      <div className="page">
-        <Apresentation />
+    <>
+      <Header />
+      <div className="pagesContainer">
+        <div className="page">
+          <Apresentation />
+        </div>
+        <div className="page">
+          <Skills />
+        </div>
+        <div className="page">
+          <Projects />
+        </div>
       </div>
-      <div className="page">
-        <Skills />
-      </div>
-      <div className="page">
-        <Projects />
-      </div>
-    </div>
+    </>
   );
 }
 

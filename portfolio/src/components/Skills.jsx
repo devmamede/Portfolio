@@ -24,17 +24,17 @@ const Skills = () => {
           </section>
 
           <section className="skillsContainer">
-            <section className="html">
+            <section className="html skill">
               <h3>HTML5</h3>
               <img className="icon" src={HtmlIcon} alt="HTML5 icon" />
             </section>
 
-            <section className="css">
+            <section className="css skill">
               <h3>CSS3</h3>
               <img className="icon" src={CssIcon} alt="CSS3 icon" />
             </section>
 
-            <section className="javascript">
+            <section className="javascript skill">
               <h3>JavaScript</h3>
               <img
                 className="icon"
@@ -43,12 +43,12 @@ const Skills = () => {
               />
             </section>
 
-            <section className="react">
+            <section className="react skill">
               <h3>React</h3>
               <img className="icon" src={ReactIcon} alt="React icon" />
             </section>
 
-            <section className="reactNative">
+            <section className="reactNative skill">
               <h3>React Native</h3>
               <img
                 className="icon"
@@ -57,27 +57,27 @@ const Skills = () => {
               />
             </section>
 
-            <section className="node">
+            <section className="node skill">
               <h3>Node.js</h3>
               <img className="icon" src={NodeIcon} alt="Node icon" />
             </section>
 
-            <section className="Bootstrap">
+            <section className="Bootstrap skill">
               <h3>Bootstrap</h3>
               <img className="icon" src={BootstrapIcon} alt="Bootstrap icon" />
             </section>
 
-            <section className="git">
+            <section className="git skill">
               <h3>Git e GitHub</h3>
               <img className="icon" src={GitIcon} alt="Git icon" />
             </section>
 
-            <section className="apis">
+            <section className="apis skill">
               <h3>APIs</h3>
               <img className="icon" src={ApiIcon} alt="APIs icon" />
             </section>
 
-            <section className="mongodb">
+            <section className="mongodb skill">
               <h3>MongoDB</h3>
               <img className="icon" src={MongoIcon} alt="MongoDB icon" />
             </section>
