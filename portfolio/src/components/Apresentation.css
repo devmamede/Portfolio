@@ -1,11 +1,3 @@
-.apresentation {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-}
-
 .apresentationContainer {
   display: flex;
   flex-direction: column;
@@ -13,12 +5,21 @@
   align-items: center;
 }
 
+.apresentation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 1rem 0;
+}
+
 .social {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .myPhoto {
@@ -28,8 +29,7 @@
 
 .socialMedia {
   background-color: #6e07f3;
-  padding: 10px;
-  width: 18vw;
+  padding: 0.5rem 5rem;
   border-radius: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -42,7 +42,7 @@
 
 .info span {
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .socialMediaIcon {
@@ -80,13 +80,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   color: #fff;
   background-color: #6e07f3;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   padding: 2rem;
-  margin-bottom: -7rem;
 }
 
 .text {
@@ -106,24 +105,31 @@
   font-weight: 500;
 }
 
-@media (max-width: 1180px) {
-  .apresentationContainer {
-    height: 100vh;
-  }
-
+@media (max-width: 1300px) {
   .myPhoto {
     width: 10rem;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .apresentation {
+    gap: 1rem;
+  }
+
+  .social {
+    gap: 0;
   }
 
   .socialMedia {
     gap: 1rem;
-    padding: 0.5rem 6rem;
+    padding: 0.5rem 2rem;
   }
 
   .info {
     font-size: 1.1rem;
-    margin-bottom: -2rem;
+  }
+
+  .text {
+    width: 90vw;
   }
 
   .text h2 {
@@ -133,6 +139,5 @@
   .text p {
     font-size: 1.2rem;
     text-align: justify;
-    hyphens: auto;
   }
 }

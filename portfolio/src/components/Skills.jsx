@@ -19,7 +19,7 @@ const Skills = () => {
       <main className="content">
         <div className="skillsBox">
           <section className="head">
-            <img className="icon" src={TerminalIcon} alt="" />
+            <img className="headIcon" src={TerminalIcon} alt="" />
             <h2 className="title">Habilidades</h2>
           </section>
 

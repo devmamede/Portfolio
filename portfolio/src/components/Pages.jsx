@@ -1,26 +1,24 @@
-import Apresentation from "./Apresentation.jsx";
-import Skills from "./Skills.jsx";
-import Projects from "./Projects.jsx";
-import Header from "./Header.jsx";
-import "./Pages.css";
+/* Full Page Scroll Code */
 
-function Pages() {
-  return (
-    <>
-      <Header />
-      <div className="pagesContainer">
-        <div className="page">
-          <Apresentation />
-        </div>
-        <div className="page">
-          <Skills />
-        </div>
-        <div className="page">
-          <Projects />
-        </div>
-      </div>
-    </>
-  );
-}
+// import Apresentation from "./Apresentation.jsx";
+// import Skills from "./Skills.jsx";
+// import Projects from "./Projects.jsx";
+// import "./Pages.css";
 
-export default Pages;
+// function Pages() {
+//   return (
+//     <div className="pagesContainer">
+//       <div className="page">
+//         <Apresentation />
+//       </div>
+//       <div className="page">
+//         <Skills />
+//       </div>
+//       <div className="page">
+//         <Projects />
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Pages;

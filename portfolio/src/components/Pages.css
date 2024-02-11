@@ -1,5 +1,7 @@
-.pagesContainer {
-  height: 100vh;
+/* Full Page Scroll Code */
+
+/* .pagesContainer {
+  height: auto;
   width: auto;
   scroll-snap-type: none;
   overflow-x: hidden;
@@ -9,10 +11,9 @@
 .page {
   height: auto;
   width: auto;
-  display: inline-block;
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1300px) {
   * {
     margin: 0;
     box-sizing: border-box;
@@ -33,4 +34,4 @@
     display: grid;
     align-items: center;
   }
-}
+} */

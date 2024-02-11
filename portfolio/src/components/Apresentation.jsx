@@ -3,13 +3,13 @@ import LinkedinIcon from "../img/linkedinIcon.png";
 import InstagramIcon from "../img/instagramIcon.png";
 import GithubIcon from "../img/githubIcon.png";
 
-import Header from "./Header.jsx";
+import Header from "./Header";
 import "./Apresentation.css";
 
 const Apresentation = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="apresentationContainer">
         <div className="apresentation">
           <section className="social">
@@ -49,9 +49,7 @@ const Apresentation = () => {
               <br />
               <span className="greenColor chave">{'"profissão"'}</span>
               <span className="yellowColor">:</span>
-              <span className="orangeColor">
-                {' "desenvolvedor front-end"'}
-              </span>
+              <span className="orangeColor">{' "desenvolvedor frontend"'}</span>
               <br />
               <span className="greenColor chave">{'"likes"'}</span>
               <span className="yellowColor">:</span>
