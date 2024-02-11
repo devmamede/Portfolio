@@ -5,12 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
 }
 
 .titleProjects {
   font-family: "Barlow", sans-serif;
-  padding: 4rem 0 1rem 0;
+  padding: 3rem 0 0 0;
   font-size: 35px;
   font-weight: 900;
 }
@@ -209,6 +208,7 @@
   .contentProjects {
     height: auto;
     width: 100vw;
+    overflow-x: hi;
   }
 
   .titleProjects {

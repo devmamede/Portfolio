@@ -6,9 +6,8 @@
   font-family: "Courier Prime";
 }
 
-body {
+html {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -17,6 +16,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 10px;
 }

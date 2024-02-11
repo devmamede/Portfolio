@@ -1,6 +1,6 @@
-import LinkedinIcon from "../img/linkedinIcon.png";
-import InstagramIcon from "../img/instagramIcon.png";
-import GithubIcon from "../img/githubIcon.png";
+import LinkedinIcon from "../img/linkedinBlackIcon.png";
+import InstagramIcon from "../img/instagramBlackIcon.png";
+import GithubIcon from "../img/githubBlackIcon.png";
 
 import "./Footer.css";
 
