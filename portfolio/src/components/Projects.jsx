@@ -128,11 +128,9 @@ const Projects = () => {
             <img className="arrowIcon next" src={RightArrow} alt="" />
           </section>
 
-          <button className="curriculoBtn">
-            <a target="blank" href={Curriculo}>
-              Visualizar currículo
-            </a>
-          </button>
+          <a className="curriculoBtn" target="blank" href={Curriculo}>
+            Visualizar currículo
+          </a>
         </div>
       </main>
 

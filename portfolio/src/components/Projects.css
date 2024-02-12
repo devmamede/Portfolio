@@ -108,13 +108,13 @@
   color: #000;
 }
 
-.curriculoBtn a {
+.curriculoBtn {
   text-decoration: none;
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
 
-.curriculoBtn a:hover {
+.curriculoBtn:hover {
   color: #000;
 }
 
